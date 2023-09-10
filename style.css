@@ -160,6 +160,11 @@ main {
   font-weight: var(--fw-bold);
 }
 
+.card__button:hover {
+  color: var(--clr-primary-yellow);
+  background-color: var(--clr-neutral-white);
+}
+
 .card__box--why_us {
   grid-area: why_us;
   background-color: var(--clr-primary-cyan);
